@@ -1,0 +1,493 @@
+ <HTML>
+ <HEAD>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <TITLE>
+ </TITLE>
+ </HEAD>
+<BODY>
+
+
+<form action="trial2_form.php" method="POST">
+
+
+	<b>Options pour le PDF :</b><br />
+	<input type="radio" name="bleed" value="0" checked="checked"> A imprimer soi-même (A4)</input><br />
+	<input type="radio" name="bleed" value="1" > Pour l'imprimerie (avec fond perdu, traits de coupe et repères de pliage)</input><br />
+	<br />
+
+    <hr>
+    
+    <h2>Page 1 - colonne 1</h2>
+    
+    <table>
+    <tr>
+    
+    <td>
+    <p>Titre (partie 1)</p>
+    <input type="text" name="p1_col1_tit1" value="Oui!">
+    </td>
+
+    
+    <td>
+    <p>Titre (partie 2)</p>
+    <input type="text" name="p1_col1_tit2" value="Je deviens">
+    </td>
+    
+    <td>
+     
+    
+    <p>Titre (partie 3)</p>
+    <input type="text" name="p1_col1_bluename" value=" membre ">
+    
+    </td>
+    
+    <td>
+    
+    <p>Titre (nom association)</p>
+    <input type="text" name="p1_col1_assocname" value="du Rougegorge">
+      
+      
+    </td>
+    </tr>
+    
+    <tr>
+    
+    <td>
+    <p>Couleur (partie 1)</p>
+    <input type="text" name="p1_col1_tit1_col" value="0,0,0">
+    </td>
+
+    
+    <td>
+    <p>Couleur (partie 2)</p>
+    <input type="text" name="p1_col1_tit2_col" value="135,135,135">
+    </td>
+    
+    <td>
+     
+    
+    <p>Couleur (partie 3)</p>
+    <input type="text" name="p1_col1_bluename_col" value="0,110,171">
+    
+    </td>
+    
+    <td>
+    
+    <p>Couleur (nom association 1)</p>
+    <input type="text" name="p1_col1_assocname_col1" value="135,135,135">
+      
+      
+    </td>
+    <td>
+    
+    <p>Couleur (nom association 2)</p>
+    <input type="text" name="p1_col1_assocname_col2" value="63,165,53">
+      
+      
+    </td>
+    
+    </tr>
+    
+    
+    <tr>
+    <td>
+    <p>Champ 1</p>
+    <input type="text" name="champ1_value" value="Nom">
+    </td>
+    <td>
+    <p>Champ 2</p>
+    <input type="text" name="champ2_value" value="Prénom">
+    </td>
+    <td>
+    <p>Champ 3</p>
+    <input type="text" name="champ3_value" value="Adresse">
+    </td> 
+    </tr>
+
+    <tr>
+    <td>
+    <p>Champ 4</p>
+    <input type="text" name="champ4_value" value="Lieu">
+    </td>
+    <td>
+    <p>Champ 5</p>
+    <input type="text" name="champ5_value" value="Né·e le">
+    </td>
+    <td>
+    <p>Champ 6</p>
+    <input type="text" name="champ6_value" value="Tél.">
+    </td> 
+    </tr>
+    
+    <tr>
+    <td>
+    <p>Champ 7</p>
+    <input type="text" name="champ7_value" value="E-mail">
+    </td>
+    <td>
+    <p>Champ 8</p>
+    <input type="text" name="champ8_value" value="Date">
+    </td>
+    <td>
+    <p>Champ 9</p>
+    <input type="text" name="champ9_value" value="Signature">
+    </td> 
+    </tr>
+    
+    
+    <tr>
+    <td>
+    <p>Catégorie 1</p>
+    <input type="text" name="membre_cat1_name" value="Membre individuel">
+    </td>
+    <td>
+    <p>Catégorie 2</p>
+    <input type="text" name="membre_cat2_name" value="Membre famille">
+    </td>
+    <td>
+    <p>Catégorie 3</p>
+    <input type="text" name="membre_cat3_name" value="Membre jeunesse">
+    </td>
+    <td>
+    <p>Catégorie 4</p>
+    <input type="text" name="membre_cat4_name" value="Membre collectif">
+    </td>
+
+    </tr>
+    <tr>
+    <td>
+    <p>Montant 1</p>
+    <input type="text" name="membre_cat1_value" value="20.-/an">
+    </td>
+    <td>
+    <p>Montant 2</p>
+    <input type="text" name="membre_cat2_value" value="50.-/an">
+    </td>
+    <td>
+    <p>Montant 3</p>
+    <input type="text" name="membre_cat3_value" value="10.-/an">
+    </td>
+    <td>
+    <p>Montant 4</p>
+    <input type="text" name="membre_cat4_value" value="100.-/an">
+    </td>
+    </tr>
+
+    
+    </table>
+    
+        <p>Note de bas de page</p>
+       <textarea name="membre_footnote" cols="90" rows="2">Avec mon adhésion, je soutiens le travail de protection de la nature dans la commune, dans le canton, en Suisse et dans le monde entier.</textarea>
+        
+    <hr>
+    
+    <h2>Page 1 - colonne 2</h2>
+    
+    
+    <table>
+    
+    <tr>
+    
+    <td>
+    
+    <p>Titre 1</p>
+           <input type="text" name="p1_col2_titre1" value="Nous">
+    
+        <p>Couleur titre 1</p>
+                   <input type="text" name="p1_col2_titre1_col" value="0, 110, 171">
+
+    
+    
+    </td>
+    
+    <td>
+    
+    <p>Titre 2</p>
+           <input type="text" name="p1_col2_titre2" value="En Suisse">
+       
+       
+        <p>Couleur titre 2</p>
+                   <input type="text" name="p1_col2_titre2_col" value="0, 110, 171">
+       
+    </td>
+    
+    <td>
+    
+        <p>Titre 3</p>
+           <input type="text" name="p1_col2_titre3" value="Les centres">
+    
+        <p>Titre 3</p>
+                   <input type="text" name="p1_col2_titre3_col" value="0, 110, 171">
+    
+    
+    </td>
+    
+
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+    <p>Desc. 1</p>
+    <!-- <input type="text" name="p1_col2_desc1" value =" Local"> -->
+       <textarea name="p1_col2_desc1" cols="90" rows="5">Basée en Valais central, l'association Le Rougegorge rassemble amis et curieux de la nature avec pour but la sensibilisation du public à la protection de l'environnement ainsi que la diffusion des connaissances sur les espèces et leurs biotopes. Nous proposons des conférences et des excursions, essentiellement ornithologiques. Par ailleurs, nous menons des projets en faveur de la nature et du paysage tels que plantation d'arbres fruitiers à haute tige, pose de nichoirs, éducation à l'environnement, aménagements à l'intention des amphibiens et bien d'autres.</textarea>
+       
+    </td>
+    
+    
+    <td>
+    <p>Desc. 2</p>
+    <!-- <input type="text" name="p1_col2_desc2" value =" Cantonal"> -->
+    <textarea name="p1_col2_desc2" cols="90" rows="5">BirdLife Suisse est notre association faîtière, active au niveau national. Elle mène des projets de protection de la nature et des oiseaux dans le milieu cultivé et en forêt, pour les sites protégés et les espèces menacées. Elle est l'un des grands partenaires de BirdLife International et soutient aussi des projets de protection de la nature dans le monde entier. Son journal Info BirdLife Suisse informe les membres des actualités dans le domaine de la nature.</textarea>
+    </td>
+    
+    
+    <td>
+    <p>Desc. 3</p>
+    <!-- <input type="text" name="p1_col2_desc3" value =" CN"> -->
+        <textarea name="p1_col2_desc3" cols="90" rows="5">Afin de sensibiliser le public aux enjeux de protection de la nature, BirdLife Suisse gère trois centres-nature en Suisse et collabore à un quatrième :&#10- Centre-nature BirdLife de La Sauge (VD)&#10- Centre-nature BirdLife du Marais de Neerach (ZH)&#10- Centre-nature BirdLife de Klingnau (AG)&#10- Centre-nature du lac de Pfäffikon (ZH).</textarea>
+    
+    </td>
+    
+    
+    </tr>
+    
+    <tr>
+    
+    <td>
+    
+    <p>Adresse 1</p>
+   <!--  <input type="text" name="p1_col2_desc1_adress" value =" Local - adresse"> -->
+       <textarea name="p1_col2_desc1_adress" cols="90" rows="2">Le Rougegorge, Grand-Pont 22, 1950 Sion&#10Tél.: 078 721 57 95, info@lerougegorge.ch,  www.lerougegorge.ch</textarea>
+    
+    </td>
+    
+    <td>
+    <p>Adresse 2</p>
+    <!-- <input type="textarea" name="p1_col2_desc2_adress" value =" Cantonal - adresse"> -->
+    <textarea name="p1_col2_desc2_adress" cols="90" rows="2">BirdLife Suisse, La Sauge, 1588 Cudrefin&#10Tél. 026 677 03 80, aspo@birdlife.ch, www.birdlife.ch</textarea>
+    </td>
+    
+    <td>
+    <p>Adresse 3</p>
+    <!-- <input type="text" name="p1_col2_desc3_adress" value =" Local"> -->
+            <textarea name="p1_col2_desc3_adress" cols="90" rows="2">www.birdlife.ch/centres-nature </textarea>
+    </td>
+    
+    </tr>
+    </table>
+    
+
+    <hr>
+    
+    <h2>Page 1 - colonne 3</h2>
+    
+    <table>
+    
+    <tr>
+    <td>
+    
+    <p>Titre - ligne 1</p>
+
+                       <input type="text" name="p1_col3_titre1" value="Le Rougegorge,">
+    
+    </td>
+    
+       <td>
+    
+    <p>Titre - ligne 1 - couleur</p>
+
+                       <input type="text" name="p1_col3_titre1_col" value="251,204,42">
+    
+    </td>
+    </tr>
+    <tr>
+    <td>
+    
+    <p>Titre - ligne 2</p>
+
+                       <input type="text" name="p1_col3_titre2" value="apprendre et découvrir">
+    
+    </td>
+    
+       <td>
+    
+    <p>Titre - ligne 2 - couleur</p>
+
+                       <input type="text" name="p1_col3_titre2_col" value="255,255,255">
+    
+    </td>
+    </tr>    
+    
+    
+        <tr>
+    <td>
+    
+    <p>Titre - ligne 3</p>
+
+                       <input type="text" name="p1_col3_titre3" value="pour mieux protéger">
+    
+    </td>
+    
+       <td>
+    
+    <p>Titre - ligne 3 - couleur</p>
+
+                       <input type="text" name="p1_col3_titre3_col" value="255,255,255">
+    
+    </td>
+    </tr>    
+    
+    
+    <tr>
+    <td>
+    
+    <p>Bas de page - nom assoc</p>
+
+                       <input type="text" name="p1_col3_footer_verein" value="Le Rougegorge">
+    
+    </td>
+    <td>
+    
+    <p>Bas de page - adresse assoc</p>
+    <textarea name="p1_col3_footer_adresse" cols="45" rows="2"> www.lerougegorge.ch&#10+41 (0) 78 721 57 95&#10info@lerougegorge.ch</textarea>
+
+    </td>
+    
+    <td>
+    
+    <p>Bas de page - couleur du texte</p>
+                   <input type="text" name="p1_col3_footer_col" value="255,255,255">
+
+    </td>
+    
+    </tr>
+    </table>
+    
+    <hr>
+    <hr>
+    
+    <h2>Page 2 - colonne 1</h2>
+    
+    <table>
+    <tr>
+    
+    <td>
+    <p>Titre 1</p>
+    <input type="text" name="p2_col1_titre1" value="Qui somme-nous?">
+    
+        <p>Titre 1 - couleur</p>
+    <input type="text" name="p2_col1_titre1_col" value="63,165,53">
+    
+    
+    </td>
+
+    <td>
+    <p>Titre 2</p>
+    <input type="text" name="p2_col1_titre2" value="Nos actions concrètes">
+    
+            <p>Titre 2 - couleur</p>
+    <input type="text" name="p2_col1_titre2_col" value="63,165,53">
+    
+    </td>
+
+    </tr>
+    <tr>
+    
+    <td>
+    <p>Texte 1</p>
+    <textarea name="p2_col1_texte1" cols="90" rows="4"> Nos sommes l'une des 450 associations de protection de la nature de Suisse, regroupées au sein de BirdLife Suisse à l'échelon national. Ensemble, nous comptons 65'000 membres. En tant que quatrième plus grand partenaire européen de l'organisation faîtière mondiale BirdLife International, BirdLife Suisse s'engage aussi fortement pour la protection au niveau international. En tant que membre de notre section, vous soutenez le travail de protection de la nature du niveau local au niveau global.</textarea>
+    </td>
+    
+    
+    <td>
+    <p>Texte 2</p>
+    <textarea name="p2_col1_texte2" cols="90" rows="4"> Nous réalisons de nombreux projets pour favoriser la flore et la faune locales. Par exemple:&#10- plantation d'arbres fruitiers à haute-tige&#10- jardin pour l'école&#10- conservation de la Tulipe d'Ayent&#10- sponsoring de gypaètes&#10... et plein d'autres choses !</textarea>
+    </td>
+    
+    </tr>
+    </table>
+    
+        <hr>
+    
+    <h2>Page 2 - colonne 2</h2>
+    
+    <table>
+    <tr>
+    
+    <td>
+    <p>Titre 1</p>
+    <input type="text" name="p2_col2_titre1" value="Apprendre et ouvrir l'oeil">
+    
+            
+            <p>Titre 2 - couleur</p>
+    <input type="text" name="p2_col2_titre1_col" value="63,165,53">
+    
+    </td>
+
+    <td>
+    <p>Titre 2</p>
+    <input type="text" name="p2_col2_titre2" value="Rejoignez-nous !">
+    
+        
+            <p>Titre 2 - couleur</p>
+    <input type="text" name="p2_col2_titre2_col" value="63,165,53">
+    
+    </td>
+
+    </tr>
+    <tr>
+    
+    <td>
+    <p>Texte 1</p>
+    <textarea name="p2_col2_texte1" cols="90" rows="4"> Chaque année nous offrons de nombreuses excursions, cours ou présentations sur divers thèmes en lien avec l'environnement - de la taille des arbres fruitiers aux avalanches, en passant par les tiques. La plupart de nos activités se concentrent dans la région d'Ayent, même si nos excursions ornithologiques nous entrainent de Loèche aux Follatères. Un riche panel de conférences complètent nos sorties en plein air.</textarea>
+    </td>
+    
+    
+    <td>
+    <p>Texte 2</p>
+    <textarea name="p2_col2_texte2" cols="90" rows="4"> En devenant membre de notre association vous soutenez la réalisation de nos projets et profitez de nos activités à tarif préférentiel.&#10&#10Merci pour votre soutien !</textarea>
+    </td>
+    
+    </tr>
+    </table>
+    
+        <hr>
+
+    <h2>Page 2 - colonne 3</h2>
+    
+        <table>
+    <tr>
+    <td>
+    
+
+    <p>Adresse d'envoi</p>
+    <textarea name="adresse_envoi" cols="90" rows="2">Association Le Rougegorge&#10Rue du Grand-Pont 22&#10CH-1950 Sion</textarea>
+    
+        </td>
+    <td>
+    
+
+    <p>Texte timbre - ligne 1</p>
+    <textarea name="timbre_texte1" cols="90" rows="2">affranchir</textarea>
+    
+    <p>Texte timbre - ligne 2</p>
+    <textarea name="timbre_texte2" cols="90" rows="2">svp :-)</textarea>
+    
+        </td>
+        
+    </tr>
+    </table>
+    
+
+    <br/>
+        <br/>
+        
+    <input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
+
+
+</BODY>
+</HTML> 
